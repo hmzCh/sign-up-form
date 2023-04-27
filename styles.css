@@ -42,17 +42,31 @@ body {
     width: 100%;
 }
 
+#image-credits {
+    position: absolute;
+    bottom: 10px;
+}
+
 .logo-bar-contents {
     padding: 10px;
 }
 
-.right-hand-side {
+.right-side {
     flex: 2;
     padding-top: 150px;
     padding-left: 40px;
     padding-right: 100px;
 }
 
-.right-hand-side p {
+.right-side p,label {
     margin: 10px;
+}
+
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
 }
