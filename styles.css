@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
   
 body {
     color: #5D6063;
-    background-color: #EAEDF0;
+    background-color: aliceblue;
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -37,18 +39,27 @@ body {
     align-items: center;
     position: absolute;
     top: 20%;
-    color: #EAEDF0;
-    background-color: grey;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+}
+
+.logo-bar-contents {
+    margin: 10px;
 }
 
 #image-credits {
     position: absolute;
     bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
 }
 
-.logo-bar-contents {
-    padding: 10px;
+#image-credits a {
+    color: whitesmoke;
 }
 
 .right-side {
