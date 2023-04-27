@@ -8,7 +8,8 @@ body {
     color: #5D6063;
     background-color: #EAEDF0;
     font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 800;
     line-height: 1.3;
 
     display: flex;
@@ -47,4 +48,14 @@ body {
 
 .right-hand-side {
     flex: 2;
+}
+
+.intro-text {
+    position: absolute;
+    top: 120px;
+}
+
+.intro-text p {
+    margin: 40px;
+    width: 750px;
 }
