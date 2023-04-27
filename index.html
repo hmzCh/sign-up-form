@@ -16,8 +16,8 @@
         <img src="./images/cherry-blossom.jpeg" alt="Abstract shapes going outwards from a point" id="sign-up-image">
 
         <div class="logo-bar">
-            <img src="./images/mirror.svg" class="logo-bar-contents">
-            <p class="logo-bar-contents" class="logo-bar-contents">Imaginary Company</p>
+            <img src="./images/mirror.svg" id="logo">
+            <p>Imaginary <br> Company</p>
         </div>
 
         <p id="image-credits">Photo by <a href="https://www.bing.com/images/create?FORM=GDPCLS">Bing Image Creator</a></p>
@@ -33,37 +33,33 @@
 
         <form>
 
-            <p>Let's do this!</p>
-
-            <div class="form-row">
-                <label for="first-name">First Name</label>
-                <input id="first-name" name="first-name" type="text"/>
-
-                <label for="second-name">Second Name</label>
-                <input id="second-name" name="second-name" type="text"/>
+            <div id="form">
+                <p>Let's do this!</p>
+                <div class="form-row">
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="first-name" type="text"/>
+                    <label for="second-name">Second Name</label>
+                    <input id="second-name" name="second-name" type="text"/>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="name@example.com"/>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone" type="tel">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input id="confirm-password" name="confirm-password" type="confirm-password">
+                </div>
             </div>
-
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="name@example.com"/>
-
-                <label for="phone">Phone Number</label>
-                <input id="phone" name="phone" type="tel">
-            </div>
-
-            <div class="form-row">
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password">
-
-                <label for="confirm-password">Confirm Password</label>
-                <input id="confirm-password" name="confirm-password" type="confirm-password">
-            </div>
-
-            <button type="submit">Create account</button>
             
+            <button type="submit">Create account</button>
+
         </form>
 
-        <p>Already have an account? <a href="">Sign in</a></p>
+        <p id="log-in-link">Already have an account? <a href="">Log in</a></p>
 
     </div>
 
