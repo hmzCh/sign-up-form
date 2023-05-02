@@ -141,7 +141,7 @@ input:focus {
     box-shadow: 2px 10px 9px rgba(193, 185, 185, 0.2);
 }
 
-input:invalid {
+input:invalid:not(:placeholder-shown) {
     border:  solid rgb(217, 0, 0);
 }
 
