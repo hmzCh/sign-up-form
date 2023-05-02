@@ -46,6 +46,7 @@ body {
     color: white;
     font-family: 'Zilla Slab', serif;
     font-size: 30px;
+    text-shadow: 0 10px 9px rgba(193, 185, 185, 0.2);
 }
 
 #logo {
@@ -79,6 +80,7 @@ body {
     /* background-color: rgb(249, 243, 243); */
     background-color: #ffffff63;
     padding: 20px;
+    box-shadow: 0 10px 9px rgba(193, 185, 185, 0.2);
 }
 
 #lets-do-this {
@@ -110,7 +112,7 @@ button {
     border-width: 3px;
     border-color: rgb(219, 110, 110);
     border-radius: 5px;
-    margin: 20px 0px 20px 40px;
+    margin: 40px 0px 30px 40px;
     width: 200px;
     height: 60px;
     font-size: 16px;
@@ -120,6 +122,7 @@ button {
 button:hover {
     background-color: rgb(219, 110, 110);
     color: #F9FAF8;
+    box-shadow: 2px 10px 9px rgba(193, 185, 185, 0.2)
 }
 
 
@@ -130,3 +133,7 @@ input:invalid {
 input:valid {
     border: 2px solid green;
 }
+
+/* input:focus {
+    box-shadow: 2px 10px 9px rgba(193, 185, 185, 0.2) 
+} */
