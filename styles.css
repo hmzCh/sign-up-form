@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: row;  
     height: 100vh;  
+    flex-wrap: wrap;
 }
 
 .image-sidebar {
@@ -106,9 +107,10 @@ label, input {
 
 label {
     font-size: 14px;
-    font-weight:500;
+    font-weight:600;
     margin: 0 0 5px 20px;
     margin-bottom: 2px;
+    padding-left: 2px;
 }
 
 input {
@@ -147,6 +149,10 @@ input:valid:not(:placeholder-shown) {
 
 #log-in-link a {
     color: rgb(219, 110, 110);
+}
+
+#log-in-link a:hover {
+    color: #383131;
 }
 
 button {
