@@ -139,7 +139,6 @@ input:valid:not(:placeholder-shown) {
 }
 
 
-
 #log-in-link {
     font-size: 16px;
     font-weight: 200;
@@ -173,4 +172,8 @@ button:hover {
     background-color: rgb(219, 110, 110);
     color: #F9FAF8;
     box-shadow: 2px 10px 9px rgba(193, 185, 185, 0.2)
+}
+
+#password::placeholder, #confirm-password::placeholder {
+    font-style: italic;
 }
